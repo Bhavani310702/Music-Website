@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramya</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"/>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="./main.css" />
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu">
+        <svg width="24" height="24" viewBox="0 0 24 24">
+          <path
+            class="svg_color"
+            fill="#000"
+            fill-rule="nonzero"
+            d="M4 6h16v2H4V6zm0 5h16v2H4v-2zm0 5h16v2H4v-2z"
+          ></path>
+        </svg>
+      </div>
+      <a class="logo" aria-label="gaana logo" href="/"
+        ><img
+          src="https://a10.gaanacdn.com/images/section/logo_1724226700.svg"
+          alt="Gaana logo"
+          class="gaanaLogoImg"
+      /></a>
+     <button class="btn">welcome offer one month trail @$1</button>
+      <button class="header_btn">Get Gaana Plus</button>
+      <svg width="32" height="24" viewBox="0 0 20 16"><g fill="none" fill-rule="evenodd"><g transform="translate(-1108 -117) translate(1089 58) translate(19 15) translate(0 43) translate(.5 1.5)"><rect class="svg_box" width="11" height="11" x="7.591" y="3.5" fill="#FFF" stroke="#8E8E93" rx="5.5"></rect><rect class="svg_box" width="11" height="11" x=".5" y=".5" fill="#FFF" stroke="#8E8E93" rx="5.5"></rect><text fill="#8E8E93" font-size="7" font-weight="500"><tspan x="3.5" y="9">A</tspan></text><text fill="#8E8E93" font-size="5" font-weight="500"><tspan x="12" y="11.5">अ</tspan></text></g></g></svg> 
+      <svg width="28" height="28" viewBox="0 0 30 30">
+        <g fill="none" fill-rule="evenodd">
+          <g
+            class="svg_stroke"
+            fill-rule="nonzero"
+            stroke="#000"
+            stroke-width=".5"
+          >
+            <path
+              d="M18.062 15.441c-2.222 1.13-4.847 1.148-7.084.047-2.237-1.1-3.825-3.19-4.287-5.64-.526-2.94.62-5.93 2.975-7.768.241-.185.321-.512.193-.787-.119-.279-.415-.438-.714-.384h-.002c-2.678.463-5.047 2.012-6.545 4.28-1.497 2.269-1.99 5.055-1.364 7.7.568 2.587 2.164 4.833 4.42 6.22 2.087 1.27 4.565 1.739 6.972 1.319.193-.034.386-.074.577-.12 1.393-.337 2.697-.971 3.822-1.859.72-.584 1.35-1.27 1.872-2.036.174-.247.158-.58-.04-.81-.196-.23-.524-.296-.795-.162zm-1.447 2.489c-1.05.828-2.266 1.42-3.566 1.735-2.406.567-4.938.165-7.05-1.12-2.104-1.295-3.591-3.39-4.12-5.803-.587-2.469-.127-5.07 1.271-7.189C4.548 3.436 6.76 1.99 9.26 1.56 6.71 3.55 5.47 6.788 6.042 9.972c.5 2.653 2.219 4.916 4.641 6.109 2.422 1.193 5.264 1.176 7.672-.046-.485.713-1.07 1.352-1.74 1.896h0v-.001z"
+              transform="translate(5 5)"
+            ></path>
+          </g>
+        </g>
+      </svg>
+      <p class="login">Login/Signup</p>
+    </header>
+    <!-------------------------------------- Navbar start ------------------------------------->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#">🎵 MusicZone</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Trending</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="genresDropdown" role="button" data-bs-toggle="dropdown">
+                      Genres
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Pop</a></li>
+                      <li><a class="dropdown-item" href="#">Rock</a></li>
+                      <li><a class="dropdown-item" href="#">Hip-Hop</a></li>
+                      <li><a class="dropdown-item" href="#">Jazz</a></li>
+                      <li><a class="dropdown-item" href="#">Classical</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="artistsDropdown" role="button" data-bs-toggle="dropdown">
+                     Top Artists
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">A.R Rahmam</a></li>
+                      <li><a class="dropdown-item" href="#">Arijith singh</a></li>
+                      <li><a class="dropdown-item" href="#">Shreya Ghoshal</a></li>
+                      <li><a class="dropdown-item" href="#">Lata Mnageshkar</a></li>
+                      <li><a class="dropdown-item" href="#">S.S Thaman</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Playlists</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+              </li>
+          </ul>
+          <form class="d-flex ms-auto">
+              <input class="form-control me-2" type="search" placeholder="Search music..." aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+      </div>
+  </div>
+</nav>
+<!-------------------------------------- navbar end-------------------------------------- -->
+<!------------------------------------ carousel start------------------------------------ -->
+
+<div id="multiItemCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://a10.gaanacdn.com/images/showcase/1738779558_14188.jpg" class="d-block w-100" alt="Romance 2.0">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://a10.gaanacdn.com/images/showcase/1738858982_13912.jpg" class="d-block w-100" alt="New Releases Hindi">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://a10.gaanacdn.com/images/showcase/1722251755_14738.jpg" class="d-block w-100" alt="2010s: Punjabi Dance">
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://a10.gaanacdn.com/images/showcase/1734028048_198.jpg" class="d-block w-100" alt="Punjabi Latest Hits">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://a10.gaanacdn.com/images/showcase/1737962959_40.jpg" class="d-block w-100" alt="New Age Love">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://a10.gaanacdn.com/images/showcase/1713247694_13906.jpg" class="d-block w-100" alt="Dance 101">
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#multiItemCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#multiItemCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+<!--------------------------------------- curousel end -------------------------------------------------------------->
+<!--------------------------------------- songs start----------------------------------------------------------------->
+<main>
+<!-- <h1><span id="span1">T</span><span id="span2">opcharts</span></h1> -->
+ <h1><span id="span1">T</span><span id="span2">op charts</span></h1>
+<div id="songsContainer"></div>
+<h1><span id="span1">A</span><span id="span2">rtists</span></h1>
+<div id="artist"></div>
+<h1><span id="span1">M</span><span id="span2">elody songs</span></h1>
+<p>see all</p>
+<div id="melody"></div>
+</main>
+<!-- songs end -->
+<body>
+ 
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+   
+  </body>
+</html>
